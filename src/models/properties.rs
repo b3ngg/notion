@@ -351,7 +351,7 @@ pub enum PropertyValue {
     /// <https://developers.notion.com/reference/property-object#phone-number-configuration>
     PhoneNumber {
         id: PropertyId,
-        phone_number: String,
+        phone_number: Option<String>,
     },
     /// <https://developers.notion.com/reference/property-object#created-time-configuration>
     CreatedTime {
